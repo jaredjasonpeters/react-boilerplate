@@ -7,5 +7,14 @@
     "test": " \"Error: no test specified\" && exit 1"
   },
   "author": "Jared J Peters",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaredjasonpeters/react-boilerplate.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/jaredjasonpeters/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/jaredjasonpeters/react-boilerplate#readme"
 }
