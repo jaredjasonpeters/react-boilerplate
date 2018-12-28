@@ -18,10 +18,11 @@ class App extends React.Component {
 
   render() {
     const { count } = this.state
+
     return (
       <div>
-        <h2 className={count > 10 ? 'warning' : null}>Numbers: {count}</h2>
         <h1>Hello World!</h1>
+        <h2 className={count > 10 ? 'warning' : null}>Numbers: {count}</h2>
         <img src="./logo.png" alt="logo" />
         <button onClick={this.increment}>+</button>
         <button onClick={this.decrement}>-</button>
