@@ -1,14 +1,12 @@
-import * as React from 'react'
+import React, { SFC } from 'react'
 import { hot } from 'react-hot-loader'
 
-class App extends React.Component {
-  render() {
-    return (
-      <div>
-        <h1>My First Component</h1>
-      </div>
-    )
-  }
+const App: React.SFC = props => {
+  return (
+    <div>
+      <h1>Hello World!</h1>
+    </div>
+  )
 }
 
 export default hot(module)(App)

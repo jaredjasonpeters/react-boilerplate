@@ -58,7 +58,7 @@
     "style-loader": "^0.23.1",
     "ts-jest": "^23.10.5",
     "ts-loader": "^5.3.3",
-    "typescript": "^3.2.2",
+    "typescript": "^3.3.0-dev.20190105",
     "webpack": "^4.27.1",
     "webpack-bundle-analyzer": "^3.0.3",
     "webpack-cli": "^3.1.2",
@@ -70,6 +70,7 @@
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-hot-loader": "^4.6.1"
+    "react-hot-loader": "^4.6.1",
+    "tslib": "^1.9.3"
   }
 }
