@@ -14,7 +14,7 @@ module.exports = {
     rules: [
       {
         test: /\.tsx?$/,
-        loader: 'ts-loader',
+        use: ['ts-loader'],
         exclude: /node_modules/
       },
       {
@@ -22,11 +22,11 @@ module.exports = {
         test: /\.js$/,
         loader: 'source-map-loader'
       },
-      // {
-      //   test: /\.js$/,
-      //   loader: 'babel-loader',
-      //   exclude: /node_modules/
-      // },
+      {
+        test: /\.js$/,
+        loader: 'babel-loader',
+        exclude: /node_modules/
+      },
       {
         test: /\.css$/,
         use: ['style-loader', 'css-loader'],
