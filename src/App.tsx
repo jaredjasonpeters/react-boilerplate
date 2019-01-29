@@ -1,10 +1,15 @@
 import React, { SFC } from 'react'
 import { hot } from 'react-hot-loader'
+import { Header } from './Components/Header'
+
+const exTheme = {
+  color: 'red'
+}
 
 const App: React.SFC = props => {
   return (
     <div>
-      <h1>Hello World!</h1>
+      <Header theme={exTheme} />
     </div>
   )
 }

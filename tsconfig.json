@@ -4,7 +4,7 @@
     "sourceMap": true,
     "noImplicitAny": true,
     "module": "commonjs",
-    "target": "es2017",
+    "target": "esnext",
     "jsx": "react",
     "types": ["node", "react", "react-dom", "@types/jest"],
     "allowJs": true,

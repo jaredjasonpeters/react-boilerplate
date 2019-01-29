@@ -1,11 +1,11 @@
-import * as React from 'react'
-import * as propTypes from 'prop-types'
+import React from 'react'
+import propTypes from 'prop-types'
 
 type ErrorBoundaryState = {
   isError: boolean
 }
 
-export default class DefaultErrorBoundary extends React.Component<
+export class DefaultErrorBoundary extends React.Component<
   {},
   ErrorBoundaryState
 > {

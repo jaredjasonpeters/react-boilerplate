@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 // import '@babel/polyfill'
 import App from './App'
 import './styles.css'
-import DefaultErrorBoundary from '../DefaultErrorBoundary'
+import { DefaultErrorBoundary } from '../DefaultErrorBoundary'
 
 if (process.env.NODE_ENV === 'development') {
   const axe = require('react-axe')
