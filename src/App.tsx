@@ -9,7 +9,7 @@ const exTheme = {
 const App: React.SFC = props => {
   return (
     <div>
-      <Header theme={exTheme} />
+      Hello World
     </div>
   )
 }
